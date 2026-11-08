@@ -1,32 +1,21 @@
-# React + TypeScript + Vite
+# World News
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+World News is a web application that lets users explore news from countries around the world through an interactive 3D globe.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Interactive 3D Globe** – Select countries by clicking on the globe.
+- **Country Search** – Quickly find a country using the search bar.
+- **Latest News** – Browse news articles related to the selected country.
+- **Article Links** – Open the original articles from their publishers.
 
-## React Compiler
+## Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React, TypeScript, CSS, `react-globe.gl`
+- **Backend:** Node.js, Express, TypeScript
+- **Database:** PostgreSQL
+- **News Data:** SerpAPI (Google News)
 
-## Expanding the Oxlint configuration
+## Purpose
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+The goal of World News is to make exploring international news simple and intuitive by connecting news articles with an interactive map of the world.
