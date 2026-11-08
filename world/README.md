@@ -1,3 +1,5 @@
+
+
 # World News
 
 World News is a web application that lets users explore news from countries around the world through an interactive 3D globe.
@@ -19,3 +21,7 @@ World News is a web application that lets users explore news from countries arou
 ## Purpose
 
 The goal of World News is to make exploring international news simple and intuitive by connecting news articles with an interactive map of the world.
+
+## Gallery
+## <img width="1920" height="902" alt="ss" src="https://github.com/user-attachments/assets/ba3788b0-5002-46cb-8637-3a446ef567b8" />
+<img width="1920" height="1080" alt="ss2" src="https://github.com/user-attachments/assets/ae51d98d-4397-4fe8-b7bb-0207a9cfb474" />
